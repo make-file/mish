@@ -1,8 +1,8 @@
 # mish
 a minimalistic shell written in c
 
-
-
+## Requirements
+readline
 
 ## TODO's
 
@@ -15,13 +15,13 @@ a minimalistic shell written in c
 - [ ] env variables 
 - [x] commands file despatcher  
 
-## compile and install
-
-note: you mustn't use this in production yet
-
-for just running:
+## build
 
 ```
 $ make clean all
 $ ./mish
+```
+## install
+```
+# make install
 ```
